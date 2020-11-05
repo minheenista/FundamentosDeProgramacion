@@ -9,18 +9,29 @@
 
 int main() {
     
-    float x = 0, x1 = 0, x2 = 0;
-
+    float a, b, c, d;
     
-    x=(6.18/5)*(((14.1-4)/2)*((14.1-4)/2));
+    scanf("%f",&a);
+    scanf("%f",&b);
+    scanf("%f",&c);
+    scanf("%f",&d);
     
-    x1=(8.9*34)/17;
-    
-    x2=8-7;
-
-    printf("%f\n", x);
-    printf("%f\n", x1);
-    printf("%f\n", x2);
+    if(a>b && a>c && a>d){
+        printf("A es mayor");
+    }
+    else{
+        if (b>a && b>c && b>d){
+            printf("B es mayor");
+        }
+        else{
+            if(c>a && c>b && c>d){
+                printf("C es mayor");
+            }
+            else{
+                printf("D es mayor");
+            }
+        }
+    }
     
     return (0);
 }
