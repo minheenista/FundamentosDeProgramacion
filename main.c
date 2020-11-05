@@ -1,9 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
 #include <stdio.h>
 #include <stdlib.h>
 // definicion y prototipos funciones
@@ -13,14 +7,21 @@
 // implementacion de funciones
 
 
-int main(int argc, char** argv) {
+int main() {
     
-    int x=1709;
-    
-    
+    float x = 0, x1 = 0, x2 = 0;
 
-    printf("Minhee te amo");
     
-    return (EXIT_SUCCESS);
+    x=(6.18/5)*(((14.1-4)/2)*((14.1-4)/2));
+    
+    x1=(8.9*34)/17;
+    
+    x2=8-7;
+
+    printf("%f\n", x);
+    printf("%f\n", x1);
+    printf("%f\n", x2);
+    
+    return (0);
 }
 
