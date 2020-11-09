@@ -6,7 +6,6 @@
 
 // implementacion de funciones
 
-
 int main(int argc, char** argv) {
     
     float a, b, c, d;
