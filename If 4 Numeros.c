@@ -1,4 +1,3 @@
-
 #include <stdio.h>
 #include <stdlib.h>
 // definicion y prototipos funciones
@@ -8,7 +7,7 @@
 // implementacion de funciones
 
 
-int main() {
+int main(int argc, char** argv) {
     
     float a, b, c, d;
     

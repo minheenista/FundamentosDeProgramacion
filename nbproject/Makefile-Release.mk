@@ -38,7 +38,6 @@ OBJECTFILES= \
 	${OBJECTDIR}/Ejemplo\ If.o \
 	${OBJECTDIR}/If\ 3\ numeros.o \
 	${OBJECTDIR}/If\ 4\ Numeros.o \
-	${OBJECTDIR}/Primer\ programa.o \
 	${OBJECTDIR}/Tarea\ Operaciones.o \
 	${OBJECTDIR}/main.o
 
@@ -84,12 +83,6 @@ ${OBJECTDIR}/If\ 4\ Numeros.o: If\ 4\ Numeros.c
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/If\ 4\ Numeros.o If\ 4\ Numeros.c
-
-.NO_PARALLEL:${OBJECTDIR}/Primer\ programa.o
-${OBJECTDIR}/Primer\ programa.o: Primer\ programa.c
-	${MKDIR} -p ${OBJECTDIR}
-	${RM} "$@.d"
-	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Primer\ programa.o Primer\ programa.c
 
 .NO_PARALLEL:${OBJECTDIR}/Tarea\ Operaciones.o
 ${OBJECTDIR}/Tarea\ Operaciones.o: Tarea\ Operaciones.c

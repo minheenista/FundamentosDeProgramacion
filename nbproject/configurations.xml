@@ -15,7 +15,6 @@
       <itemPath>Ejemplo If.c</itemPath>
       <itemPath>If 3 numeros.c</itemPath>
       <itemPath>If 4 Numeros.c</itemPath>
-      <itemPath>Primer programa.c</itemPath>
       <itemPath>Tarea Operaciones.c</itemPath>
       <itemPath>main.c</itemPath>
     </logicalFolder>
@@ -47,8 +46,6 @@
       </item>
       <item path="If 4 Numeros.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="Primer programa.c" ex="false" tool="0" flavor2="0">
-      </item>
       <item path="Tarea Operaciones.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="main.c" ex="false" tool="0" flavor2="0">
@@ -79,8 +76,6 @@
       <item path="If 3 numeros.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="If 4 Numeros.c" ex="false" tool="0" flavor2="0">
-      </item>
-      <item path="Primer programa.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="Tarea Operaciones.c" ex="false" tool="0" flavor2="0">
       </item>

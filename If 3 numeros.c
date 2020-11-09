@@ -7,7 +7,7 @@
 // implementacion de funciones
 
 
-int main() {
+int main(int argc, char** argv) {
     
     float a, b, c;
     
