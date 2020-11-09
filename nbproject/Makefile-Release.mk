@@ -36,9 +36,11 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 # Object Files
 OBJECTFILES= \
 	${OBJECTDIR}/Ejemplo\ If.o \
+	${OBJECTDIR}/EjemploWhile.o \
 	${OBJECTDIR}/If\ 3\ numeros.o \
 	${OBJECTDIR}/If\ 4\ Numeros.o \
 	${OBJECTDIR}/Tarea\ Operaciones.o \
+	${OBJECTDIR}/WhileFibonacci.o \
 	${OBJECTDIR}/main.o
 
 
@@ -72,6 +74,11 @@ ${OBJECTDIR}/Ejemplo\ If.o: Ejemplo\ If.c
 	${RM} "$@.d"
 	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Ejemplo\ If.o Ejemplo\ If.c
 
+${OBJECTDIR}/EjemploWhile.o: EjemploWhile.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/EjemploWhile.o EjemploWhile.c
+
 .NO_PARALLEL:${OBJECTDIR}/If\ 3\ numeros.o
 ${OBJECTDIR}/If\ 3\ numeros.o: If\ 3\ numeros.c
 	${MKDIR} -p ${OBJECTDIR}
@@ -89,6 +96,11 @@ ${OBJECTDIR}/Tarea\ Operaciones.o: Tarea\ Operaciones.c
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Tarea\ Operaciones.o Tarea\ Operaciones.c
+
+${OBJECTDIR}/WhileFibonacci.o: WhileFibonacci.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/WhileFibonacci.o WhileFibonacci.c
 
 ${OBJECTDIR}/main.o: main.c
 	${MKDIR} -p ${OBJECTDIR}
