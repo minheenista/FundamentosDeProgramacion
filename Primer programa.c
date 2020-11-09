@@ -4,22 +4,21 @@
  * and open the template in the editor.
  */
 
+/* 
+ * File:   Primer programa.c
+ * Author: Mich
+ *
+ * Created on 9 de noviembre de 2020, 11:22 AM
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
-// definicion y prototipos funciones
 
-//variables y constantes
-
-// implementacion de funciones
-
-
+/*
+ * 
+ */
 int main(int argc, char** argv) {
-
-    int x=1709;
-
-
-
-    printf("Minhee te amo");
 
     return (EXIT_SUCCESS);
 }
+

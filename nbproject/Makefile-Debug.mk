@@ -35,6 +35,11 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 
 # Object Files
 OBJECTFILES= \
+	${OBJECTDIR}/Ejemplo\ If.o \
+	${OBJECTDIR}/If\ 3\ numeros.o \
+	${OBJECTDIR}/If\ 4\ Numeros.o \
+	${OBJECTDIR}/Primer\ programa.o \
+	${OBJECTDIR}/Tarea\ Operaciones.o \
 	${OBJECTDIR}/main.o
 
 
@@ -61,6 +66,36 @@ LDLIBSOPTIONS=
 ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/fundamentosdeprogramacion.exe: ${OBJECTFILES}
 	${MKDIR} -p ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}
 	${LINK.c} -o ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/fundamentosdeprogramacion ${OBJECTFILES} ${LDLIBSOPTIONS}
+
+.NO_PARALLEL:${OBJECTDIR}/Ejemplo\ If.o
+${OBJECTDIR}/Ejemplo\ If.o: Ejemplo\ If.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Ejemplo\ If.o Ejemplo\ If.c
+
+.NO_PARALLEL:${OBJECTDIR}/If\ 3\ numeros.o
+${OBJECTDIR}/If\ 3\ numeros.o: If\ 3\ numeros.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/If\ 3\ numeros.o If\ 3\ numeros.c
+
+.NO_PARALLEL:${OBJECTDIR}/If\ 4\ Numeros.o
+${OBJECTDIR}/If\ 4\ Numeros.o: If\ 4\ Numeros.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/If\ 4\ Numeros.o If\ 4\ Numeros.c
+
+.NO_PARALLEL:${OBJECTDIR}/Primer\ programa.o
+${OBJECTDIR}/Primer\ programa.o: Primer\ programa.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Primer\ programa.o Primer\ programa.c
+
+.NO_PARALLEL:${OBJECTDIR}/Tarea\ Operaciones.o
+${OBJECTDIR}/Tarea\ Operaciones.o: Tarea\ Operaciones.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Tarea\ Operaciones.o Tarea\ Operaciones.c
 
 ${OBJECTDIR}/main.o: main.c
 	${MKDIR} -p ${OBJECTDIR}

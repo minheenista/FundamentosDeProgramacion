@@ -12,6 +12,11 @@
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
                    projectFiles="true">
+      <itemPath>Ejemplo If.c</itemPath>
+      <itemPath>If 3 numeros.c</itemPath>
+      <itemPath>If 4 Numeros.c</itemPath>
+      <itemPath>Primer programa.c</itemPath>
+      <itemPath>Tarea Operaciones.c</itemPath>
       <itemPath>main.c</itemPath>
     </logicalFolder>
     <logicalFolder name="TestFiles"
@@ -36,6 +41,16 @@
       </toolsSet>
       <compileType>
       </compileType>
+      <item path="Ejemplo If.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="If 3 numeros.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="If 4 Numeros.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Primer programa.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Tarea Operaciones.c" ex="false" tool="0" flavor2="0">
+      </item>
       <item path="main.c" ex="false" tool="0" flavor2="0">
       </item>
     </conf>
@@ -59,6 +74,16 @@
           <developmentMode>5</developmentMode>
         </asmTool>
       </compileType>
+      <item path="Ejemplo If.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="If 3 numeros.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="If 4 Numeros.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Primer programa.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Tarea Operaciones.c" ex="false" tool="0" flavor2="0">
+      </item>
       <item path="main.c" ex="false" tool="0" flavor2="0">
       </item>
     </conf>
