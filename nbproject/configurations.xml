@@ -17,6 +17,7 @@
       <itemPath>If 3 numeros.c</itemPath>
       <itemPath>If 4 Numeros.c</itemPath>
       <itemPath>Tablas De Multiplicar.c</itemPath>
+      <itemPath>TablasDeMultiplicar_For.c</itemPath>
       <itemPath>Tarea Operaciones.c</itemPath>
       <itemPath>TareaTablasDeMultiplicar.c</itemPath>
       <itemPath>WhileFibonacci.c</itemPath>
@@ -44,7 +45,7 @@
       </toolsSet>
       <compileType>
       </compileType>
-      <item path="TareaTablasDeMultiplicar.c" ex="false" tool="0" flavor2="0">
+      <item path="TablasDeMultiplicar_For.c" ex="false" tool="0" flavor2="0">
       </item>
     </conf>
     <conf name="Release" type="1">
@@ -76,6 +77,8 @@
       <item path="If 4 Numeros.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="Tablas De Multiplicar.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="TablasDeMultiplicar_For.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="Tarea Operaciones.c" ex="false" tool="0" flavor2="0">
       </item>
