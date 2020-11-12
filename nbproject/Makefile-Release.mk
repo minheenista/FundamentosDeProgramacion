@@ -39,7 +39,9 @@ OBJECTFILES= \
 	${OBJECTDIR}/EjemploWhile.o \
 	${OBJECTDIR}/If\ 3\ numeros.o \
 	${OBJECTDIR}/If\ 4\ Numeros.o \
+	${OBJECTDIR}/Tablas\ De\ Multiplicar.o \
 	${OBJECTDIR}/Tarea\ Operaciones.o \
+	${OBJECTDIR}/TareaTablasDeMultiplicar.o \
 	${OBJECTDIR}/WhileFibonacci.o \
 	${OBJECTDIR}/main.o
 
@@ -91,11 +93,22 @@ ${OBJECTDIR}/If\ 4\ Numeros.o: If\ 4\ Numeros.c
 	${RM} "$@.d"
 	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/If\ 4\ Numeros.o If\ 4\ Numeros.c
 
+.NO_PARALLEL:${OBJECTDIR}/Tablas\ De\ Multiplicar.o
+${OBJECTDIR}/Tablas\ De\ Multiplicar.o: Tablas\ De\ Multiplicar.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Tablas\ De\ Multiplicar.o Tablas\ De\ Multiplicar.c
+
 .NO_PARALLEL:${OBJECTDIR}/Tarea\ Operaciones.o
 ${OBJECTDIR}/Tarea\ Operaciones.o: Tarea\ Operaciones.c
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Tarea\ Operaciones.o Tarea\ Operaciones.c
+
+${OBJECTDIR}/TareaTablasDeMultiplicar.o: TareaTablasDeMultiplicar.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/TareaTablasDeMultiplicar.o TareaTablasDeMultiplicar.c
 
 ${OBJECTDIR}/WhileFibonacci.o: WhileFibonacci.c
 	${MKDIR} -p ${OBJECTDIR}
