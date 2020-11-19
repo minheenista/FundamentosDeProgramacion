@@ -44,6 +44,7 @@ OBJECTFILES= \
 	${OBJECTDIR}/Tarea\ Operaciones.o \
 	${OBJECTDIR}/TareaTablasDeMultiplicar.o \
 	${OBJECTDIR}/WhileFibonacci.o \
+	${OBJECTDIR}/arreglos.o \
 	${OBJECTDIR}/main.o
 
 
@@ -120,6 +121,11 @@ ${OBJECTDIR}/WhileFibonacci.o: WhileFibonacci.c
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/WhileFibonacci.o WhileFibonacci.c
+
+${OBJECTDIR}/arreglos.o: arreglos.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/arreglos.o arreglos.c
 
 ${OBJECTDIR}/main.o: main.c
 	${MKDIR} -p ${OBJECTDIR}
