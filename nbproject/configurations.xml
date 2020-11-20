@@ -12,6 +12,8 @@
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
                    projectFiles="true">
+      <itemPath>Arreglos_Tarea1.c</itemPath>
+      <itemPath>Arreglos_Tarea2.c</itemPath>
       <itemPath>Ejemplo If.c</itemPath>
       <itemPath>EjemploWhile.c</itemPath>
       <itemPath>If 3 numeros.c</itemPath>
@@ -46,7 +48,7 @@
       </toolsSet>
       <compileType>
       </compileType>
-      <item path="arreglos.c" ex="false" tool="0" flavor2="0">
+      <item path="Arreglos_Tarea2.c" ex="false" tool="0" flavor2="0">
       </item>
     </conf>
     <conf name="Release" type="1">
@@ -69,6 +71,10 @@
           <developmentMode>5</developmentMode>
         </asmTool>
       </compileType>
+      <item path="Arreglos_Tarea1.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Arreglos_Tarea2.c" ex="false" tool="0" flavor2="0">
+      </item>
       <item path="Ejemplo If.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="EjemploWhile.c" ex="false" tool="0" flavor2="0">

@@ -35,6 +35,8 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 
 # Object Files
 OBJECTFILES= \
+	${OBJECTDIR}/Arreglos_Tarea1.o \
+	${OBJECTDIR}/Arreglos_Tarea2.o \
 	${OBJECTDIR}/Ejemplo\ If.o \
 	${OBJECTDIR}/EjemploWhile.o \
 	${OBJECTDIR}/If\ 3\ numeros.o \
@@ -71,6 +73,16 @@ LDLIBSOPTIONS=
 ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/fundamentosdeprogramacion.exe: ${OBJECTFILES}
 	${MKDIR} -p ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}
 	${LINK.c} -o ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/fundamentosdeprogramacion ${OBJECTFILES} ${LDLIBSOPTIONS}
+
+${OBJECTDIR}/Arreglos_Tarea1.o: Arreglos_Tarea1.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Arreglos_Tarea1.o Arreglos_Tarea1.c
+
+${OBJECTDIR}/Arreglos_Tarea2.o: Arreglos_Tarea2.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Arreglos_Tarea2.o Arreglos_Tarea2.c
 
 .NO_PARALLEL:${OBJECTDIR}/Ejemplo\ If.o
 ${OBJECTDIR}/Ejemplo\ If.o: Ejemplo\ If.c
