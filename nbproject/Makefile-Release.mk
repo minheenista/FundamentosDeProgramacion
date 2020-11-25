@@ -39,6 +39,10 @@ OBJECTFILES= \
 	${OBJECTDIR}/Arreglos_Tarea2.o \
 	${OBJECTDIR}/Ejemplo\ If.o \
 	${OBJECTDIR}/EjemploWhile.o \
+	${OBJECTDIR}/EjerciciosArreglos1.o \
+	${OBJECTDIR}/EjerciciosArreglos2.o \
+	${OBJECTDIR}/EjerciciosArreglos3.o \
+	${OBJECTDIR}/EjerciciosArreglos4.o \
 	${OBJECTDIR}/If\ 3\ numeros.o \
 	${OBJECTDIR}/If\ 4\ Numeros.o \
 	${OBJECTDIR}/Tablas\ De\ Multiplicar.o \
@@ -94,6 +98,26 @@ ${OBJECTDIR}/EjemploWhile.o: EjemploWhile.c
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/EjemploWhile.o EjemploWhile.c
+
+${OBJECTDIR}/EjerciciosArreglos1.o: EjerciciosArreglos1.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/EjerciciosArreglos1.o EjerciciosArreglos1.c
+
+${OBJECTDIR}/EjerciciosArreglos2.o: EjerciciosArreglos2.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/EjerciciosArreglos2.o EjerciciosArreglos2.c
+
+${OBJECTDIR}/EjerciciosArreglos3.o: EjerciciosArreglos3.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/EjerciciosArreglos3.o EjerciciosArreglos3.c
+
+${OBJECTDIR}/EjerciciosArreglos4.o: EjerciciosArreglos4.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/EjerciciosArreglos4.o EjerciciosArreglos4.c
 
 .NO_PARALLEL:${OBJECTDIR}/If\ 3\ numeros.o
 ${OBJECTDIR}/If\ 3\ numeros.o: If\ 3\ numeros.c

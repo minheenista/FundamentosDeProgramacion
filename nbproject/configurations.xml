@@ -16,6 +16,10 @@
       <itemPath>Arreglos_Tarea2.c</itemPath>
       <itemPath>Ejemplo If.c</itemPath>
       <itemPath>EjemploWhile.c</itemPath>
+      <itemPath>EjerciciosArreglos1.c</itemPath>
+      <itemPath>EjerciciosArreglos2.c</itemPath>
+      <itemPath>EjerciciosArreglos3.c</itemPath>
+      <itemPath>EjerciciosArreglos4.c</itemPath>
       <itemPath>If 3 numeros.c</itemPath>
       <itemPath>If 4 Numeros.c</itemPath>
       <itemPath>Tablas De Multiplicar.c</itemPath>
@@ -48,7 +52,7 @@
       </toolsSet>
       <compileType>
       </compileType>
-      <item path="Arreglos_Tarea2.c" ex="false" tool="0" flavor2="0">
+      <item path="EjerciciosArreglos4.c" ex="false" tool="0" flavor2="0">
       </item>
     </conf>
     <conf name="Release" type="1">
@@ -78,6 +82,14 @@
       <item path="Ejemplo If.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="EjemploWhile.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="EjerciciosArreglos1.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="EjerciciosArreglos2.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="EjerciciosArreglos3.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="EjerciciosArreglos4.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="If 3 numeros.c" ex="false" tool="0" flavor2="0">
       </item>
