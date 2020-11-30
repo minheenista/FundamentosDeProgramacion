@@ -43,6 +43,7 @@ OBJECTFILES= \
 	${OBJECTDIR}/EjerciciosArreglos2.o \
 	${OBJECTDIR}/EjerciciosArreglos3.o \
 	${OBJECTDIR}/EjerciciosArreglos4.o \
+	${OBJECTDIR}/Funciones.o \
 	${OBJECTDIR}/If\ 3\ numeros.o \
 	${OBJECTDIR}/If\ 4\ Numeros.o \
 	${OBJECTDIR}/Tablas\ De\ Multiplicar.o \
@@ -118,6 +119,11 @@ ${OBJECTDIR}/EjerciciosArreglos4.o: EjerciciosArreglos4.c
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/EjerciciosArreglos4.o EjerciciosArreglos4.c
+
+${OBJECTDIR}/Funciones.o: Funciones.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Funciones.o Funciones.c
 
 .NO_PARALLEL:${OBJECTDIR}/If\ 3\ numeros.o
 ${OBJECTDIR}/If\ 3\ numeros.o: If\ 3\ numeros.c

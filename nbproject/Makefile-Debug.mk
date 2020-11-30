@@ -35,7 +35,7 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 
 # Object Files
 OBJECTFILES= \
-	${OBJECTDIR}/EjerciciosArreglos4.o
+	${OBJECTDIR}/Funciones.o
 
 
 # C Compiler Flags
@@ -62,10 +62,10 @@ ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/fundamentosdeprogramacion.exe: ${OBJE
 	${MKDIR} -p ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}
 	${LINK.c} -o ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/fundamentosdeprogramacion ${OBJECTFILES} ${LDLIBSOPTIONS}
 
-${OBJECTDIR}/EjerciciosArreglos4.o: EjerciciosArreglos4.c
+${OBJECTDIR}/Funciones.o: Funciones.c
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
-	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/EjerciciosArreglos4.o EjerciciosArreglos4.c
+	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Funciones.o Funciones.c
 
 # Subprojects
 .build-subprojects:
