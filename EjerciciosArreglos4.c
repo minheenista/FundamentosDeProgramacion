@@ -18,7 +18,6 @@ int main(int argc, char** argv) {
     
     for(int i=0;i<n;i++){
         scanf("%d", &arreglo[i]);
-        
     }
     
     for (int i=0;i<n;i++){
@@ -36,8 +35,5 @@ int main(int argc, char** argv) {
         printf("%3d",arreglo[i]);
     }
     
-    
-    
-
     return (0);
 }
