@@ -37,6 +37,7 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 OBJECTFILES= \
 	${OBJECTDIR}/Arreglos_Tarea1.o \
 	${OBJECTDIR}/Arreglos_Tarea2.o \
+	${OBJECTDIR}/Conversiones.o \
 	${OBJECTDIR}/Ejemplo\ If.o \
 	${OBJECTDIR}/EjemploWhile.o \
 	${OBJECTDIR}/EjerciciosArreglos1.o \
@@ -89,6 +90,11 @@ ${OBJECTDIR}/Arreglos_Tarea2.o: Arreglos_Tarea2.c
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Arreglos_Tarea2.o Arreglos_Tarea2.c
+
+${OBJECTDIR}/Conversiones.o: Conversiones.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Conversiones.o Conversiones.c
 
 .NO_PARALLEL:${OBJECTDIR}/Ejemplo\ If.o
 ${OBJECTDIR}/Ejemplo\ If.o: Ejemplo\ If.c
