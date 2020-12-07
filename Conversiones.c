@@ -110,6 +110,6 @@ float kelCen (float k){
 
 void pausarlim (){
     printf("\n");
-    system("cmd.exe /c pause");
+    system("cmd /c pause");
     system("cmd.exe /c cls");
 }
