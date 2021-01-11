@@ -37,6 +37,7 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 OBJECTFILES= \
 	${OBJECTDIR}/Arreglos_Tarea1.o \
 	${OBJECTDIR}/Arreglos_Tarea2.o \
+	${OBJECTDIR}/CadenasYArrays.o \
 	${OBJECTDIR}/Conversiones.o \
 	${OBJECTDIR}/Ejemplo\ If.o \
 	${OBJECTDIR}/EjemploWhile.o \
@@ -53,6 +54,7 @@ OBJECTFILES= \
 	${OBJECTDIR}/Tarea\ Operaciones.o \
 	${OBJECTDIR}/TareaTablasDeMultiplicar.o \
 	${OBJECTDIR}/WhileFibonacci.o \
+	${OBJECTDIR}/apuntadores.o \
 	${OBJECTDIR}/arreglos.o \
 	${OBJECTDIR}/main.o
 
@@ -90,6 +92,11 @@ ${OBJECTDIR}/Arreglos_Tarea2.o: Arreglos_Tarea2.c
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Arreglos_Tarea2.o Arreglos_Tarea2.c
+
+${OBJECTDIR}/CadenasYArrays.o: CadenasYArrays.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/CadenasYArrays.o CadenasYArrays.c
 
 ${OBJECTDIR}/Conversiones.o: Conversiones.c
 	${MKDIR} -p ${OBJECTDIR}
@@ -175,6 +182,11 @@ ${OBJECTDIR}/WhileFibonacci.o: WhileFibonacci.c
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/WhileFibonacci.o WhileFibonacci.c
+
+${OBJECTDIR}/apuntadores.o: apuntadores.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/apuntadores.o apuntadores.c
 
 ${OBJECTDIR}/arreglos.o: arreglos.c
 	${MKDIR} -p ${OBJECTDIR}
