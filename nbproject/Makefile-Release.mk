@@ -38,6 +38,7 @@ OBJECTFILES= \
 	${OBJECTDIR}/Arreglos_Tarea1.o \
 	${OBJECTDIR}/Arreglos_Tarea2.o \
 	${OBJECTDIR}/CadenasYArrays.o \
+	${OBJECTDIR}/ContarLetras.o \
 	${OBJECTDIR}/Conversiones.o \
 	${OBJECTDIR}/Ejemplo\ If.o \
 	${OBJECTDIR}/EjemploWhile.o \
@@ -47,6 +48,8 @@ OBJECTFILES= \
 	${OBJECTDIR}/EjerciciosArreglos4.o \
 	${OBJECTDIR}/Funciones.o \
 	${OBJECTDIR}/Funciones2.o \
+	${OBJECTDIR}/FuncionesHeader.o \
+	${OBJECTDIR}/Headers.o \
 	${OBJECTDIR}/If\ 3\ numeros.o \
 	${OBJECTDIR}/If\ 4\ Numeros.o \
 	${OBJECTDIR}/Tablas\ De\ Multiplicar.o \
@@ -98,6 +101,11 @@ ${OBJECTDIR}/CadenasYArrays.o: CadenasYArrays.c
 	${RM} "$@.d"
 	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/CadenasYArrays.o CadenasYArrays.c
 
+${OBJECTDIR}/ContarLetras.o: ContarLetras.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/ContarLetras.o ContarLetras.c
+
 ${OBJECTDIR}/Conversiones.o: Conversiones.c
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
@@ -143,6 +151,16 @@ ${OBJECTDIR}/Funciones2.o: Funciones2.c
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Funciones2.o Funciones2.c
+
+${OBJECTDIR}/FuncionesHeader.o: FuncionesHeader.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/FuncionesHeader.o FuncionesHeader.c
+
+${OBJECTDIR}/Headers.o: Headers.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Headers.o Headers.c
 
 .NO_PARALLEL:${OBJECTDIR}/If\ 3\ numeros.o
 ${OBJECTDIR}/If\ 3\ numeros.o: If\ 3\ numeros.c

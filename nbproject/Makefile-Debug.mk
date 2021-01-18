@@ -35,7 +35,8 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 
 # Object Files
 OBJECTFILES= \
-	${OBJECTDIR}/CadenasYArrays.o
+	${OBJECTDIR}/FuncionesHeader.o \
+	${OBJECTDIR}/Headers.o
 
 
 # C Compiler Flags
@@ -62,10 +63,15 @@ ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/fundamentosdeprogramacion.exe: ${OBJE
 	${MKDIR} -p ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}
 	${LINK.c} -o ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/fundamentosdeprogramacion ${OBJECTFILES} ${LDLIBSOPTIONS}
 
-${OBJECTDIR}/CadenasYArrays.o: CadenasYArrays.c
+${OBJECTDIR}/FuncionesHeader.o: FuncionesHeader.c
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
-	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/CadenasYArrays.o CadenasYArrays.c
+	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/FuncionesHeader.o FuncionesHeader.c
+
+${OBJECTDIR}/Headers.o: Headers.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Headers.o Headers.c
 
 # Subprojects
 .build-subprojects:

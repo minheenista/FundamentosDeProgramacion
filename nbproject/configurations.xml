@@ -4,6 +4,7 @@
     <logicalFolder name="HeaderFiles"
                    displayName="Header Files"
                    projectFiles="true">
+      <itemPath>FuncionesHeader.h</itemPath>
     </logicalFolder>
     <logicalFolder name="ResourceFiles"
                    displayName="Resource Files"
@@ -15,6 +16,7 @@
       <itemPath>Arreglos_Tarea1.c</itemPath>
       <itemPath>Arreglos_Tarea2.c</itemPath>
       <itemPath>CadenasYArrays.c</itemPath>
+      <itemPath>ContarLetras.c</itemPath>
       <itemPath>Conversiones.c</itemPath>
       <itemPath>Ejemplo If.c</itemPath>
       <itemPath>EjemploWhile.c</itemPath>
@@ -24,6 +26,8 @@
       <itemPath>EjerciciosArreglos4.c</itemPath>
       <itemPath>Funciones.c</itemPath>
       <itemPath>Funciones2.c</itemPath>
+      <itemPath>FuncionesHeader.c</itemPath>
+      <itemPath>Headers.c</itemPath>
       <itemPath>If 3 numeros.c</itemPath>
       <itemPath>If 4 Numeros.c</itemPath>
       <itemPath>Tablas De Multiplicar.c</itemPath>
@@ -57,7 +61,11 @@
       </toolsSet>
       <compileType>
       </compileType>
-      <item path="CadenasYArrays.c" ex="false" tool="0" flavor2="0">
+      <item path="FuncionesHeader.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="FuncionesHeader.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Headers.c" ex="false" tool="0" flavor2="0">
       </item>
     </conf>
     <conf name="Release" type="1">
@@ -86,6 +94,8 @@
       </item>
       <item path="CadenasYArrays.c" ex="false" tool="0" flavor2="0">
       </item>
+      <item path="ContarLetras.c" ex="false" tool="0" flavor2="0">
+      </item>
       <item path="Conversiones.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="Ejemplo If.c" ex="false" tool="0" flavor2="0">
@@ -103,6 +113,12 @@
       <item path="Funciones.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="Funciones2.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="FuncionesHeader.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="FuncionesHeader.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Headers.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="If 3 numeros.c" ex="false" tool="0" flavor2="0">
       </item>
