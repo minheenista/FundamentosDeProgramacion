@@ -46,12 +46,16 @@ OBJECTFILES= \
 	${OBJECTDIR}/EjerciciosArreglos2.o \
 	${OBJECTDIR}/EjerciciosArreglos3.o \
 	${OBJECTDIR}/EjerciciosArreglos4.o \
+	${OBJECTDIR}/Factorial.o \
+	${OBJECTDIR}/Ficheros.o \
 	${OBJECTDIR}/Funciones.o \
 	${OBJECTDIR}/Funciones2.o \
 	${OBJECTDIR}/FuncionesHeader.o \
+	${OBJECTDIR}/Hanoi.o \
 	${OBJECTDIR}/Headers.o \
 	${OBJECTDIR}/If\ 3\ numeros.o \
 	${OBJECTDIR}/If\ 4\ Numeros.o \
+	${OBJECTDIR}/RecursividadFibonacci.o \
 	${OBJECTDIR}/Tablas\ De\ Multiplicar.o \
 	${OBJECTDIR}/TablasDeMultiplicar_For.o \
 	${OBJECTDIR}/Tarea\ Operaciones.o \
@@ -59,6 +63,7 @@ OBJECTFILES= \
 	${OBJECTDIR}/WhileFibonacci.o \
 	${OBJECTDIR}/apuntadores.o \
 	${OBJECTDIR}/arreglos.o \
+	${OBJECTDIR}/ficheros2.o \
 	${OBJECTDIR}/main.o
 
 
@@ -142,6 +147,16 @@ ${OBJECTDIR}/EjerciciosArreglos4.o: EjerciciosArreglos4.c
 	${RM} "$@.d"
 	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/EjerciciosArreglos4.o EjerciciosArreglos4.c
 
+${OBJECTDIR}/Factorial.o: Factorial.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Factorial.o Factorial.c
+
+${OBJECTDIR}/Ficheros.o: Ficheros.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Ficheros.o Ficheros.c
+
 ${OBJECTDIR}/Funciones.o: Funciones.c
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
@@ -156,6 +171,11 @@ ${OBJECTDIR}/FuncionesHeader.o: FuncionesHeader.c
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/FuncionesHeader.o FuncionesHeader.c
+
+${OBJECTDIR}/Hanoi.o: Hanoi.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Hanoi.o Hanoi.c
 
 ${OBJECTDIR}/Headers.o: Headers.c
 	${MKDIR} -p ${OBJECTDIR}
@@ -173,6 +193,11 @@ ${OBJECTDIR}/If\ 4\ Numeros.o: If\ 4\ Numeros.c
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/If\ 4\ Numeros.o If\ 4\ Numeros.c
+
+${OBJECTDIR}/RecursividadFibonacci.o: RecursividadFibonacci.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/RecursividadFibonacci.o RecursividadFibonacci.c
 
 .NO_PARALLEL:${OBJECTDIR}/Tablas\ De\ Multiplicar.o
 ${OBJECTDIR}/Tablas\ De\ Multiplicar.o: Tablas\ De\ Multiplicar.c
@@ -210,6 +235,11 @@ ${OBJECTDIR}/arreglos.o: arreglos.c
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/arreglos.o arreglos.c
+
+${OBJECTDIR}/ficheros2.o: ficheros2.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/ficheros2.o ficheros2.c
 
 ${OBJECTDIR}/main.o: main.c
 	${MKDIR} -p ${OBJECTDIR}

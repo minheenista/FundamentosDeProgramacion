@@ -24,12 +24,16 @@
       <itemPath>EjerciciosArreglos2.c</itemPath>
       <itemPath>EjerciciosArreglos3.c</itemPath>
       <itemPath>EjerciciosArreglos4.c</itemPath>
+      <itemPath>Factorial.c</itemPath>
+      <itemPath>Ficheros.c</itemPath>
       <itemPath>Funciones.c</itemPath>
       <itemPath>Funciones2.c</itemPath>
       <itemPath>FuncionesHeader.c</itemPath>
+      <itemPath>Hanoi.c</itemPath>
       <itemPath>Headers.c</itemPath>
       <itemPath>If 3 numeros.c</itemPath>
       <itemPath>If 4 Numeros.c</itemPath>
+      <itemPath>RecursividadFibonacci.c</itemPath>
       <itemPath>Tablas De Multiplicar.c</itemPath>
       <itemPath>TablasDeMultiplicar_For.c</itemPath>
       <itemPath>Tarea Operaciones.c</itemPath>
@@ -37,6 +41,7 @@
       <itemPath>WhileFibonacci.c</itemPath>
       <itemPath>apuntadores.c</itemPath>
       <itemPath>arreglos.c</itemPath>
+      <itemPath>ficheros2.c</itemPath>
       <itemPath>main.c</itemPath>
     </logicalFolder>
     <logicalFolder name="TestFiles"
@@ -61,11 +66,9 @@
       </toolsSet>
       <compileType>
       </compileType>
-      <item path="FuncionesHeader.c" ex="false" tool="0" flavor2="0">
-      </item>
       <item path="FuncionesHeader.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="Headers.c" ex="false" tool="0" flavor2="0">
+      <item path="Hanoi.c" ex="false" tool="0" flavor2="0">
       </item>
     </conf>
     <conf name="Release" type="1">
@@ -110,6 +113,10 @@
       </item>
       <item path="EjerciciosArreglos4.c" ex="false" tool="0" flavor2="0">
       </item>
+      <item path="Factorial.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Ficheros.c" ex="false" tool="0" flavor2="0">
+      </item>
       <item path="Funciones.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="Funciones2.c" ex="false" tool="0" flavor2="0">
@@ -118,11 +125,15 @@
       </item>
       <item path="FuncionesHeader.h" ex="false" tool="3" flavor2="0">
       </item>
+      <item path="Hanoi.c" ex="false" tool="0" flavor2="0">
+      </item>
       <item path="Headers.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="If 3 numeros.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="If 4 Numeros.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="RecursividadFibonacci.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="Tablas De Multiplicar.c" ex="false" tool="0" flavor2="0">
       </item>
@@ -137,6 +148,8 @@
       <item path="apuntadores.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="arreglos.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="ficheros2.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="main.c" ex="false" tool="0" flavor2="0">
       </item>
